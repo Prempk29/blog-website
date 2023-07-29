@@ -9,7 +9,7 @@ localStorage = new LocalStorage("./scratch")
 const cookieparser = require('cookie-parser')
 const mongoose=require("mongoose");
 const cookieParser = require("cookie-parser");
-mongoose.connect('mongodb://127.0.0.1:27017/blogdb');
+mongoose.connect('mongodb+srv://ravisai189:o0ad2pKr2Xt6K7Uo@cluster0.pxlyy1u.mongodb.net/blogwebsite');
 
 
 const homeStartingContent ="Step into a world of limitless possibilities and boundless imagination. Daily Journal is your gateway to a diverse universe of ideas, stories, and inspirations that will expand your horizons and leave you craving for more. Whether you're an avid reader, an aspiring writer, or simply seeking a digital sanctuary, we're thrilled to have you join our ever-growing community.";
