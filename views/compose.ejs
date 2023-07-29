@@ -1,0 +1,9 @@
+<%-include("header");-%>
+<form action="/compose" method="post">
+    <label for="title" >Title</label><br>
+    <input type="text" name="title" class="title" placeholder="Title"><br>
+    <label for="Postdata">Post</label><br>
+    <textarea name="Postdata" rows="8" cols="80" class="post" placeholder="Enter your post"></textarea><br>   
+    <button type="submit" name="button" class="button1" style="color: black; text-decoration: none;">publish</button>
+</form>
+<%-include("footer");-%>

@@ -1,0 +1,7 @@
+<%-include("header");-%>
+<h1><%=title%></h1>
+<p><%=content%></p>
+<form action='/delete/<%=id%>' method="POST" >
+    <input type="submit" value="Delete">
+  </form>
+<%-include("footer");-%>
